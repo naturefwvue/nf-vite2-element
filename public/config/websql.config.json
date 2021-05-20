@@ -1,0 +1,7 @@
+{
+  "title": "测试各种控件",
+  "dbName": "nf-crud",
+  "ver": 1.0,
+  "remarks": "模拟后端的增删改查",
+  "size": 10
+}

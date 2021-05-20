@@ -1,0 +1,147 @@
+{
+  "gridListMeta": {
+    "baseMeta": {
+      "controlId": 101,
+      "height": 300 ,
+      "fixedIndex": 2,
+      "idName": "id",
+      "colOrder": [
+        101, 102, 103, 104, 105, 106, 107, 108
+      ],
+      "stripe": true,
+      "border": true,
+      "fit": true,
+      "highlight-current-row": "true",
+      "current-row-key": "idName",
+      "dataIds": []
+    },
+    "itemMeta": {
+      "101": {  
+        "id": 101,
+        "colName": "id",
+        "label": "编号",
+        "width": 60,
+        "title": "编号",
+        "align": "left",
+        "header-align": "center"
+      },
+      "102": {  
+        "id": 102,
+        "colName": "companyName",
+        "label": "公司名称",
+        "width": 140,
+        "title": "公司名称",
+        "align": "left",
+        "header-align": "center"
+      },
+      "103": {  
+        "id": 103,
+        "colName": "date",
+        "label": "建立日期",
+        "width": 140,
+        "title": "建立日期",
+        "align": "center",
+        "header-align": "center"
+      },
+      "104": {  
+        "id": 104,
+        "colName": "name",
+        "label": "联系人",
+        "width": 120,
+        "title": "联系人",
+        "align": "left",
+        "header-align": "center"
+      },
+      "105": {  
+        "id": 105,
+        "colName": "province",
+        "label": "省份",
+        "width": 100,
+        "title": "省份",
+        "align": "left",
+        "header-align": "center"
+      },
+      "106": {  
+        "id": 106,
+        "colName": "city",
+        "label": "市区",
+        "width": 100,
+        "title": "市区",
+        "align": "left",
+        "header-align": "center"
+      },
+      "107": {  
+        "id": 107,
+        "colName": "address",
+        "label": "地址",
+        "width": 200,
+        "title": "地址",
+        "align": "left",
+        "header-align": "center"
+      },
+      "108": {  
+        "id": 108,
+        "colName": "zip",
+        "label": "邮编",
+        "width": 100,
+        "title": "邮编",
+        "align": "center",
+        "header-align": "center"
+      }
+    },
+    "editMeta": {
+      "102": {  
+        "controlId": 102,
+        "colName": "companyName",
+        "label": "公司名称",
+        "controlType": 101,
+        "defValue": "",
+        "placeholder": "公司名称",
+        "title": "",
+        "autocomplete": "off",
+        "show_word_limit": false,
+        "maxlength": 100
+      },
+      "103": {  
+        "controlId": 103,
+        "colName": "date",
+        "label": "控件类型",
+        "controlType": 110,
+        "title": "控件类型",
+        "placeholder": "请选择控件类型"
+      },
+      "104": {  
+        "controlId": 104,
+        "colName": "name",
+        "label": "联系人",
+        "controlType": 101,
+        "placeholder": "联系人",
+        "title": "",
+        "autocomplete": "off",
+        "colCount": 1
+      },
+      "105": {  
+        "controlId": 105,
+        "colName": "province",
+        "label": "省份",
+        "controlType": 160,
+        "placeholder": "省份",
+        "title": "",
+        "optionList": [{
+          "value": 1,
+          "label": "北京"
+        },
+        {
+          "value": 2,
+          "label": "上海"
+        },
+        {
+          "value": 3,
+          "label": "广州"
+        }],
+        "autocomplete": "on",
+        "maxlength": 100
+      }
+    }
+  }
+}

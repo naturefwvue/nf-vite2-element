@@ -1,0 +1,145 @@
+{
+  "formMeta": {
+    "baseProps": {
+      "formColCount": 1,
+      "colOrder": [
+        200, 201, 202, 203, 204, 205,
+        206, 207, 208
+      ]
+    },
+    "formColShow": {
+    },
+    "ruleMeta": {
+    },
+    "itemMeta": {
+      "200": {  
+        "controlId": 200,
+        "colName": "columnId",
+        "label": "主键",
+        "controlType": 120,
+        "isClear": false,
+        "defValue": 1000,
+        "placeholder": "主键",
+        "title": "主键",
+        "colCount": 1,
+        "width": 150,
+        "delay": 1000
+      },
+      "202": {  
+        "controlId": 202,
+        "colName": "colName",
+        "label": "字段名",
+        "controlType": 101,
+        "isClear": false,
+        "defValue": "",
+        "placeholder": "字段名",
+        "title": "字段名",
+        "colCount": 1,
+        "width": 150,
+        "delay": 1000
+      },
+      "203": {  
+        "controlId": 203,
+        "colName": "label",
+        "label": "中文名",
+        "controlType": 101,
+        "isClear": false,
+        "defValue": "",
+        "placeholder": "中文名",
+        "title": "中文名",
+        "colCount": 1,
+        "width": 150,
+        "delay": 5000
+      },
+      "204": {  
+        "controlId": 204,
+        "colName": "colType",
+        "label": "类型",
+        "controlType": 107,
+        "isClear": false,
+        "defValue": "",
+        "placeholder": "类型",
+        "title": "类型",
+        "optionList": [
+          {"value": "int", "label": "2"},
+          {"value": "varchar", "label": "4"},
+          {"value": "datetime", "label": "8"},
+          {"value": "", "label": "16"},
+          {"value": "", "label": "1"},
+          {"value": "", "label": "10"},
+          {"value": "", "label": "20"},
+          {"value": "", "label": "50"},
+          {"value": "", "label": "100"},
+          {"value": "", "label": "200"}
+        ],
+        "colCount": 1,
+        "width": 150,
+        "delay": 300
+      },
+      "205": {  
+        "controlId": 205,
+        "colName": "colSize",
+        "label": "大小",
+        "controlType": 107,
+        "isClear": false,
+        "defValue": "",
+        "placeholder": "大小",
+        "title": "大小",
+        "optionList": [
+          {"value": 2, "label": "2"},
+          {"value": 4, "label": "4"},
+          {"value": 8, "label": "8"},
+          {"value": 16, "label": "16"},
+          {"value": 1, "label": "1"},
+          {"value": 10, "label": "10"},
+          {"value": 20, "label": "20"},
+          {"value": 50, "label": "50"},
+          {"value": 100, "label": "100"},
+          {"value": 200, "label": "200"}
+        ],
+        "colCount": 1,
+        "width": 100,
+        "delay": 300
+      },
+      "206": {  
+        "controlId": 206,
+        "colName": "controlTypeId",
+        "label": "控件类型",
+        "controlType": 160,
+        "isClear": false,
+        "defValue": "",
+        "placeholder": "控件类型",
+        "title": "控件类型",
+        "colCount": 1,
+        "width": 150,
+        "delay": 500
+      },
+      "207": {  
+        "controlId": 207,
+        "colName": "defValue",
+        "label": "默认值",
+        "controlType": 101,
+        "isClear": false,
+        "defValue": "",
+        "placeholder": "默认值",
+        "title": "默认值",
+        "colCount": 1,
+        "width": 100,
+        "delay": 500
+      },
+      "208": {  
+        "controlId": 208,
+        "colName": "isNull",
+        "label": "允许空",
+        "controlType": 150,
+        "isClear": false,
+        "defValue": "",
+        "placeholder": "",
+        "title": "",
+        "colCount": 1,
+        "width": 100,
+        "delay": 0
+      }
+    }
+  }
+}

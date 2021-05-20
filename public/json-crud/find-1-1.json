@@ -1,0 +1,287 @@
+{
+  "findMeta": {
+    "baseMeta": {
+      "quickFind": [
+        90,  101, 105,110
+      ],
+      "allFind": [
+        90,  101, 
+        110, 111, 114, 112, 113, 115, 116,
+        120, 121, 100, 
+        150, 151, 152, 153,
+        160, 162
+
+      ],
+      "label-width": 100,
+      "finditem-width": 300,
+      "customer": {
+        "100": {
+          "title" : "方案一",
+          "ids" : [101, 103, 106, 107, 104, 105],
+          "defaultFindKind": 101,
+          "defaultDateKind": "日期"
+        } 
+      },
+      "customerDefault": 100
+    },
+    "findKind": {
+      "101": {
+        "findkind" : [101, 102, 103, 104],
+        "dateControlKind" : [101, 102, 103, 106, 107, 104, 105],
+        "isRange" : true,
+        "isCorrect": false
+      } 
+    },
+    "itemMeta": {
+      "90": {  
+        "controlId": 90,
+        "colName": "kind",
+        "label": "分类",
+        "controlType": 153,
+        "isClear": false,
+        "defValue": "",
+        "placeholder": "分类",
+        "title": "编号",
+        "optionList": [
+          {"value": 1, "label": "文本类"},
+          {"value": 2, "label": "数字类"},
+          {"value": 3, "label": "日期类"},
+          {"value": 4, "label": "选择类"}
+        ],
+        "colCount": 2.5
+      },
+      "100": {  
+        "controlId": 100,
+        "colName": "area",
+        "label": "多行文本",
+        "controlType": 100,
+        "isClear": false,
+        "defValue": 1000,
+        "placeholder": "多行文本",
+        "title": "多行文本",
+        "colCount": 1
+      },
+      "101": {  
+        "controlId": 101,
+        "colName": "text",
+        "label": "文本",
+        "controlType": 101,
+        "isClear": false,
+        "defValue": "",
+        "placeholder": "文本",
+        "title": "文本",
+        "colCount": 1
+      },
+      "102": {  
+        "controlId": 102,
+        "colName": "pwd",
+        "label": "密码",
+        "controlType": 102,
+        "isClear": false,
+        "defValue": "1000",
+        "placeholder": "密码",
+        "title": "密码",
+        "colCount": 1
+      },
+      "105": {  
+        "controlId": 105,
+        "colName": "url",
+        "label": "url",
+        "controlType": 105,
+        "isClear": false,
+        "defValue": "",
+        "placeholder": "url",
+        "title": "url",
+        "colCount": 1
+      },
+      "110": {  
+        "controlId": 110,
+        "colName": "date",
+        "label": "日期",
+        "controlType": 110,
+        "isClear": false,
+        "defValue": "2020-05-04",
+        "placeholder": "日期",
+        "title": "日期",
+        "colCount": 2
+      }, 
+      "111": {  
+        "controlId": 111,
+        "colName": "datetime",
+        "label": "日期时间",
+        "controlType": 111,
+        "isClear": false,
+        "defValue": "",
+        "placeholder": "日期时间",
+        "title": "日期时间",
+        "colCount": 2
+      },
+      "112": {  
+        "controlId": 112,
+        "colName": "month",
+        "label": "年月",
+        "controlType": 112,
+        "isClear": false,
+        "defValue": "",
+        "placeholder": "年月",
+        "title": "年月",
+        "colCount": 2
+      },
+      "113": {  
+        "controlId": 113,
+        "colName": "week",
+        "label": "年周",
+        "controlType": 113,
+        "isClear": false,
+        "defValue": "",
+        "placeholder": "年周",
+        "title": "年周",
+        "colCount": 2
+      },
+      "114": {  
+        "controlId": 114,
+        "colName": "year",
+        "label": "年",
+        "controlType": 114,
+        "isClear": false,
+        "defValue": "",
+        "placeholder": "年",
+        "title": "年",
+        "colCount": 2
+      },
+      "115": {  
+        "controlId": 115,
+        "colName": "time1",
+        "label": "时间",
+        "controlType": 115,
+        "isClear": false,
+        "defValue": "",
+        "placeholder": "时间",
+        "title": "时间",
+        "colCount": 2
+      },
+      "116": {  
+        "controlId": 116,
+        "colName": "time2",
+        "label": "时间",
+        "controlType": 116,
+        "isClear": false,
+        "defValue": "",
+        "placeholder": "时间",
+        "title": "时间",
+        "colCount": 2
+      },
+      "120": {  
+        "controlId": 120,
+        "colName": "number1",
+        "label": "数字",
+        "controlType": 120,
+        "isClear": false,
+        "defValue": "",
+        "placeholder": "数字",
+        "title": "数字",
+        "colCount": 1
+      },
+      "121": {  
+        "controlId": 121,
+        "colName": "number2",
+        "label": "滑块",
+        "controlType": 121,
+        "isClear": false,
+        "defValue": "",
+        "placeholder": "滑块",
+        "title": "滑块",
+        "colCount": 1
+      },
+      "150": {  
+        "controlId": 150,
+        "colName": "check1",
+        "label": "勾选",
+        "controlType": 150,
+        "isClear": false,
+        "defValue": false,
+        "placeholder": "勾选",
+        "title": "勾选",
+        "colCount": 1
+      },
+      "151": {  
+        "controlId": 151,
+        "colName": "check2",
+        "label": "开关",
+        "controlType": 151,
+        "isClear": false,
+        "defValue": false,
+        "placeholder": "开关",
+        "title": "开关",
+        "colCount": 1
+      },
+      "152": {  
+        "controlId": 152,
+        "colName": "checks",
+        "label": "多选组",
+        "controlType": 152,
+        "isClear": false,
+        "defValue": [],
+        "placeholder": "多选组",
+        "title": "多选组",
+        "optionList": [
+          {"value": 1, "label": "多选 选项一"},
+          {"value": 2, "label": "多选 选项二"}
+        ],
+        "colCount": 1
+      },
+      "153": {  
+        "controlId": 153,
+        "colName": "radio",
+        "label": "单选组",
+        "controlType": 153,
+        "isClear": false,
+        "defValue": "",
+        "placeholder": "单选组",
+        "title": "单选组",
+        "optionList": [
+          {"value": 1, "label": "单选 选项一"},
+          {"value": 2, "label": "单选 选项二"}
+        ],
+        "colCount": 1
+      },
+      "160": {  
+        "controlId": 160,
+        "colName": "select",
+        "label": "下拉",
+        "controlType": 160,
+        "isClear": false,
+        "defValue": 1,
+        "placeholder": "下拉",
+        "title": "下拉",
+        "optionList": [
+          {"value": 1, "label": "下拉 选项一"},
+          {"value": 2, "label": "1____下拉 选项二"}
+        ],
+        "colCount": 1
+      },
+      "161": {  
+        "controlId": 161,
+        "colName": "selects",
+        "label": "下拉多选",
+        "controlType": 161,
+        "isClear": false,
+        "defValue": [],
+        "placeholder": "下拉多选",
+        "title": "下拉多选",
+        "colCount": 1
+      },
+      "162": {  
+        "controlId": 162,
+        "colName": "selectunion",
+        "label": "下拉联动",
+        "controlType": 162,
+        "isClear": false,
+        "defValue": [],
+        "placeholder": "下拉联动",
+        "title": "下拉联动",
+        "colCount": 1
+      }
+    }
+  }
+}

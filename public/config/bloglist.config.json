@@ -1,0 +1,41 @@
+{
+  "findtest": {
+    "title": "测试各种控件",
+    "tableName": "crudtest",
+    "listCol": {
+      "id": 1,
+      "kind": 1,
+      "area": 1000,
+      "text": "测试",
+      "pwd": 1000,
+      "url": "www.baidu.com",
+      "date": "2021-03-04",
+      "datetime": "2021-05-06 21:06:22",
+      "month": "2021-05",
+      "week": 202118,
+      "year": 2021,
+      "time1": "00:00:00",
+      "time2": "00:00",
+      "number1": 0,
+      "number2": 0,
+      "check1":  false,
+      "check2": false,
+      "checks": "",
+      "radio": 1,
+      "select1": 1,
+      "selects": 0,
+      "selectunion": 0
+    },
+    "page": {
+      "pageTotal": 100,
+      "pageIndex": 1,
+      "pageSize": 5,
+      "orderBy": {
+        "id": false
+      }
+    },
+    "findKind": {},
+    "find": {}
+  }
+  
+}
